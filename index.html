@@ -3,11 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Mirella Martinez" />
+    <meta name="description" content="Design and development of a home page, also including JavaScript to provide some dynamic information." />
+    <title>WDD 231 - Web Frontend Development - Mirella Martinez</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <header>
-        
-    </header>
+    <div id="content">
+        <header>
+            <div id="main-title">
+                <img class="me" src="images/Mirella.jpeg" alt="myphoto">
+                <h1>Mirella Martinez</h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Chamber</a>
+                <a href="#">GitHub Profile</a>
+                <a href="#">LinkedIn</a>
+            </nav>
+        </header>
+        <main class="home-grid">
+            <section class="card" id="about-me">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="card" id="resources">
+                <h2>Madrid, Spain</h2>
+                <div class="country">
+                    <img src="images/street-madrid.jpg" alt="street-madrid">
+                    <h3 class="name-img">Gran via</h3>
+                </div>
+            </section>
+        </main>
+        <div class="homegrid2">
+            <section class="card2">
+                <h2>Web and Computer Programing Certificate</h2>
+                <div class="black-button" id="mytopcontainer" >
+                    <button class="btn" id="all" onclick="myFunction()">ALL</button>
+                    <button class="btn" id="cse">CSE</button>
+                    <button class="btn" id="wdd">WDD</button>
+                </div>
+                <div id="container">
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p> &copy; 
+                <span id="year"></span> 
+                🌺 Mirella Martinez Salcedo 🌺 Spain
+                <img class="flag" src="images/spain_flag.png" alt="flag">
+            </p>
+            <p>Last update: <span id="lastModified"></span> </p>
+        </footer>
+    </div>
 </body>
 </html>
