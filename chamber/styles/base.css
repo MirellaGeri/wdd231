@@ -80,9 +80,9 @@ main{
 }
 .weather{
     background-color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 img{
     height: 100%;
@@ -96,7 +96,7 @@ h1{
     text-align: left;
 }
 .home-grid {
-    display: block;
+    display: grid;
     height: auto;
     text-align: center;
 }
@@ -111,16 +111,22 @@ h1{
     grid-column-end: 3;
     margin-right: 20px;
 }
-.icon-weather{
-    width: 50px;
-    height: 50px;
-}
 #text_weather{
-    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 #text_weatherforecast{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
+}
+.icon-weather{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+.weather p{
+    text-align: left;
+    font-size: 30px;
 }
 #forecast{
     grid-column-start: 4;
@@ -133,7 +139,6 @@ h1{
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card h2{
-    text-align: center;
     background-color: #082058;
     color: white;
     padding: 10px;
