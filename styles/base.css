@@ -1,4 +1,32 @@
 
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    #about-me{
+        margin-right: 0px;
+    } 
+}
+
+@media screen and (min-width: 1000px) {
+    #container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        color: white;
+    }
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -41,6 +69,12 @@ nav a:hover {
     background-color:#6f7364;
     color:yellow;
 }
+.me{
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(4px 6px 12px black);
+    padding-right: 50px;
+}
 main{
     width: 95%;
     height: 65%;
@@ -50,32 +84,10 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.join {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    margin-top: 50px;
-    padding: 15px 30px;
-    border-radius: 5px;
-    background-color: #d9c2a3;
-}
-.me{
-    width: 100px;
-    height: 100px;
-    filter: drop-shadow(4px 6px 12px black);
-    padding-right: 50px;
-}
-div{
-    display: block;
-    unicode-bidi: isolate;
-}
 #about-me{
     grid-column-start: 1;
     grid-column-end: 3;
     margin-right: 20px;
-}
-.black-button{
-    margin-bottom: 20px;
 }
 .card{
     grid-column: 3;
@@ -92,15 +104,16 @@ div{
     margin-bottom: 20px;
     text-align: center;
 }
+.black-button{
+    margin-bottom: 20px;
+}
 .card2{
     border-radius: 5px;
     box-shadow: 5px 5px 10px #6f7364;
 }
-#container{
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    background-color: brown;
-    color: white;
+.imagen{
+
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
 }
 footer {
     background-color:#082058;
@@ -189,30 +202,4 @@ li {
   }
 .btn:hover {
     opacity: 0.6
-}
-
-
-@media screen and (max-width: 900px) {
-    .home-grid {
-        display: block;
-        height: auto;
-        text-align: center;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    footer {
-        margin-top: 25px;
-    }
-    #about-me{
-        margin-right: 0px;
-    }
-    #container{
-        display: grid;
-        grid-template-columns: auto;
-    }
 }

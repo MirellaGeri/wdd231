@@ -107,7 +107,7 @@ function displayCard(coursesfiltered) {
         document.getElementById("container").innerHTML = ""
         coursesfiltered.forEach(course => {
             const coursesList = document.createElement("section")
-            coursesList.innerHTML = `<section><h2>${course.number}</h2></section>`;
+            coursesList.innerHTML = `<section><div class="imagen"><h2>${course.number}</h2></div></section>`;
             document.getElementById("container").appendChild(coursesList);
     });
  }

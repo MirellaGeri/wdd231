@@ -1,0 +1,175 @@
+.header {
+    overflow: hidden;
+    background-color: #082058;
+    padding: 20px 10px;
+  }
+.header img{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+.header .name{
+  position:absolute ;
+  padding-left: 100px ;
+  color: white;
+  font-family: Agbalumo;
+  line-height: 15px;
+}
+.header a {
+    float: none;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 15px;
+    border-radius: 4px;
+    font-family: Agbalumo;
+    display: block;
+  }
+.header a{
+    float: left;
+    text-align: center;
+}
+.header a.active {
+    background-color: #232323;
+    color: white;
+  }
+.header-right a{
+    display: block;
+    padding: 15px;
+}
+  .header .header-right a:hover {
+    background-color:  rgba(249, 247, 247, 0.441);
+    color: black;
+  }
+  .header-right{
+    padding-top: 20px;
+    float: right;
+} 
+.icon{
+    height: 20px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.header-right a.icon {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    display: none;
+}
+
+main{
+    font-family: "Edu TAS Beginner";
+    color: #082058;
+}
+.container{
+    position: relative;
+    height: 500px;
+}
+.text-right {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    width: 200px;
+}
+.weather{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: left;
+}
+.home-grid {
+    display: block;
+    height: auto;
+    text-align: center;
+}
+
+#about-me{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-right: 20px;
+}
+#resources{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-right: 20px;
+}
+.icon-weather{
+    width: 50px;
+    height: 50px;
+}
+#text_weather{
+    text-align: left;
+}
+#text_weatherforecast{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#forecast{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    margin-right: 20px;
+}
+.card{
+    grid-column: 3;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card h2{
+    text-align: center;
+    background-color: #082058;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+footer {
+    font-family: Agbalumo;
+    background-color:#082058;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 25px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer div{
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    font-family: Agbalumo;
+    font-size: 1.2em;
+    margin: 0.25rem;
+    text-align: left;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #FAFAFA; 
+}
+footer img{
+    margin-top: 50px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 50px;
+    height: 50px;
+}
