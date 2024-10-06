@@ -1,14 +1,4 @@
 @media (max-width:900px) {
-    .home-grid{
-        display: block;
-        height: auto;
-        text-align: center;
-    }
-    .home-grid2{
-      display: block;
-      height: auto;
-      text-align: center;
-  }
     .header a{
         display: block;
         text-align: center;
@@ -61,12 +51,4 @@
         width: 100%;
         display: flex;
       }
-}
-@media (min-width:901px ) and (max-width:1400px) {
-  .home-grid2{
-    padding-top: 15px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
 }

@@ -60,7 +60,6 @@
     top: 50px;
     display: none;
 }
-
 main{
     font-family: "Edu TAS Beginner";
     color: #082058;
@@ -71,12 +70,27 @@ main{
 }
 .text-right {
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     right: 20px;
     background-color: white;
     opacity: 0.8;
     color: black;
-    width: 200px;
+    width: 400px;
+    font-size: 35px;
+}
+.book{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color:#082058;
+}
+.button-box {
+    text-align: center;
 }
 .weather{
     background-color: white;
@@ -84,12 +98,31 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.weather p{
+    text-align: left;
+}
+.business{
+    background-color: white;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.business p{
+    margin-top: 10px;
+    text-align: left;
+}
 img{
     height: 100%;
     width:100%;
     object-fit: cover;
 }
 p{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
 }
 h1{
@@ -100,7 +133,12 @@ h1{
     height: auto;
     text-align: center;
 }
-
+.home-grid2 {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
 #about-me{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -115,18 +153,29 @@ h1{
     grid-column-start: 2;
     grid-column-end: 4;
 }
+#events{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 #text_weatherforecast{
     grid-column-start: 1;
     grid-column-end: 4;
+}
+#text_business{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding-bottom: 10px;
 }
 .icon-weather{
     text-align: center;
     width: 80px;
     height: 80px;
 }
-.weather p{
-    text-align: left;
-    font-size: 30px;
+.logo_business{
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
 }
 #forecast{
     grid-column-start: 4;
@@ -135,14 +184,56 @@ h1{
 }
 .card{
     grid-column: 3;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 5px #6f7364;
 }
 .card h2{
     background-color: #082058;
     color: white;
     padding: 10px;
     margin-top: 0;
+}
+section .card2{
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    max-width: 450px;
+}
+.card2{
+    border-radius: 15px 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .75);
+}
+.card2 h2{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 15px 15px 0px 0px;
+    border-top: 15px;
+    border-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #6f7364;;
+    color: #082058;
+    padding: 10px;
+    margin-top: 0;
+}
+.card2 h3{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px 0px 0px 0px;
+    border-top: 15px;
+    border-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #6f7364;;
+    color: #082058;
+    padding: 10px;
+    margin-top: 0;
+}
+.card p{
+    font-size: 1.2em;
+}
+.card2 p{
+    font-size: 1em;
 }
 footer {
     font-family: Agbalumo;

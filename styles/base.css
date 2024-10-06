@@ -17,16 +17,23 @@
     }
     #about-me{
         margin-right: 0px;
-    } 
-}
-
-@media screen and (min-width: 1000px) {
+    }
     #container{
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        color: white;
+        display: block;
+        height: auto;
+        text-align: center;
     }
 }
+@media screen and (min-width: 901px) {
+    #container{
+        display: grid;
+    }
+}
+#container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    color: white;
+}  
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -112,7 +119,6 @@ main{
     box-shadow: 5px 5px 10px #6f7364;
 }
 .imagen{
-
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
 }
 footer {

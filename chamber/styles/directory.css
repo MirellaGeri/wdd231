@@ -1,0 +1,200 @@
+.header {
+    overflow: hidden;
+    background-color: #082058;
+    padding: 20px 10px;
+  }
+.header img{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+.header .name{
+  position:absolute ;
+  padding-left: 100px ;
+  color: white;
+  font-family: Agbalumo;
+  line-height: 15px;
+}
+.header a {
+    float: none;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 15px;
+    border-radius: 4px;
+    font-family: Agbalumo;
+    display: block;
+  }
+.header a{
+    float: left;
+    text-align: center;
+}
+.header a.active {
+    background-color: #232323;
+    color: white;
+  }
+.header-right a{
+    display: block;
+    padding: 15px;
+}
+  .header .header-right a:hover {
+    background-color:  rgba(249, 247, 247, 0.441);
+    color: black;
+  }
+  .header-right{
+    padding-top: 20px;
+    float: right;
+} 
+.icon{
+    height: 20px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.header-right a.icon {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    display: none;
+}
+main{
+    font-family: "Edu TAS Beginner";
+    color: #082058;
+}
+.container{
+    position: relative;
+    height: 500px;
+    padding-bottom: 10px;
+}
+.text-right {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    width: 200px;
+}
+.container img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+main {
+	margin: 0 auto;
+	padding: 0.5rem;
+    background-color: #fff;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color:#759C95;
+	text-align: center;
+}
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+}
+.grid section {
+	text-align: center;
+}
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+.grid section > * {
+	margin: 0.1rem;
+}
+.grid h3 {
+	font-family: "Caveat", cursive;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+.list section > * {
+	margin: 0 1rem;
+}
+.list section img {
+	display: none; /* smaller viewports only */
+}
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+.list section:nth-child(even) {
+	background-color:#759C95;
+}
+section h3 {
+	font-size: 1.5rem;
+}
+section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: #4532f1;
+	letter-spacing: 1.1pt;
+}
+img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+footer {
+    font-family: Agbalumo;
+    background-color:#082058;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 25px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer div{
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    font-family: Agbalumo;
+    font-size: 1.2em;
+    margin: 0.25rem;
+    text-align: left;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #FAFAFA; 
+}
+footer img{
+    margin-top: 50px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 50px;
+    height: 50px;
+}
