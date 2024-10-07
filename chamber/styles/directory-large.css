@@ -41,14 +41,16 @@
       width: 100%;
     }
     footer {
-        text-align: center;
+      display: block;
+  }
+  footer div{
+    padding: 30px;
+  }
+  footer p{
+    text-align: center;
+  }
+  .about-grid{
+      width: 100%;
+      display: flex;
     }
-    footer div{
-        display: inline-block;
-        padding: 30px;
-    }
-    .about-grid{
-        width: 100%;
-        display: flex;
-      }
 }
