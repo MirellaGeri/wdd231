@@ -1,67 +1,66 @@
-{
-  "companies": [
+[
     {
       "names": "Alcampo SAC",
-      "addresses": "Calle molinos 101",
-      "phonenumbers": "636363663",
-      "website URL": "https://www.compraonline.alcampo.es/",
-      "image": "Alcampo.png",
+      "address": "Calle molinos 101",
+      "phone": 636363663,
+      "website": "https://www.compraonline.alcampo.es/",
+      "image": "Logo-Alcampo.jpg",
       "membershiplevel": "1",
       "otherinformation": null
     },
     {
       "names": "Carrefour SAC",
-      "addresses": "Calle lopez de albujar 12",
-      "phonenumbers": "6363888863",
-      "website URL": "https://www.carrefour.es/",
-      "image": "Carrefour.png",
+      "address": "Calle lopez de albujar 12",
+      "phone": 6363888863,
+      "website": "https://www.carrefour.es/",
+      "image": "carrefour-logo-1.svg",
       "membershiplevel": "2",
       "otherinformation": null
     },
     {
       "names": "DIA SAC",
-      "addresses": "Calle bravo murillo 13",
-      "phonenumbers": "636363663",
-      "website URL": "https://www.dia.es/",
-      "image": "Dia.png",
+      "address": "Calle bravo murillo 13",
+      "phone": 636363663,
+      "website": "https://www.dia.es/",
+      "image": "dia_logo.jpg",
       "membershiplevel": "3",
       "otherinformation": null
     },
     {
       "names": "Ahorramas SAC",
-      "addresses": "Calle nuestra señora del carmen 35",
-      "phonenumbers": "636367778",
-      "website URL": "https://www.ahorramas.com/",
-      "image": "Ahorramas.png",
+      "address": "Calle nuestra señora del carmen 35",
+      "phone": 636367778,
+      "website": "https://www.ahorramas.com/",
+      "image": "ahorramas_logo.png",
       "membershiplevel": "1",
       "otherinformation": null
     },
     {
       "names": "Aldi SAC",
-      "addresses": "Calle recoletos 36",
-      "phonenumbers": "636368863",
-      "website URL": "https://www.aldi.es/",
-      "image": "Aldi.png",
+      "address": "Calle recoletos 36",
+      "phone": 636368863,
+      "website": "https://www.aldi.es/",
+      "image": "Aldi_logo.png",
       "membershiplevel": "2",
       "otherinformation": null
     },
     {
       "names": "Lidl SAC",
-      "addresses": "Calle alvarado 11",
-      "phonenumbers": "636853663",
-      "website URL": "https://www.lidl.es/",
-      "image": "Lidl.png",
+      "address": "Calle alvarado 11",
+      "phone": 636853663,
+      "website": "https://www.lidl.es/",
+      "image": "Lidl-Logo.png",
       "membershiplevel": "3",
       "otherinformation": null
     },
     {
       "names": "Mercadona SAC",
-      "addresses": "Calle lope de aro 2",
-      "phonenumbers": "636362453",
-      "website URL": "https://www.mercadona.es/",
-      "image": "Mercadona.png",
+      "address": "Calle lope de aro 2",
+      "phone": 636362453,
+      "website": "https://www.mercadona.es/",
+      "image": "logo-mercadona.png",
       "membershiplevel": "3",
       "otherinformation": null
     }
-  ]
-}
+]
+
