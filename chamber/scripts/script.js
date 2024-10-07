@@ -1,6 +1,7 @@
 
 import members from '../data/members.json' with {type:'json'};
 
+
 let homegrid2 = document.querySelector('.home-grid2');
 
 members.forEach(element => {
@@ -17,6 +18,8 @@ members.forEach(element => {
                                 </div>
                             </section>`;
 });
+
+
 
 /*
 displayCard(members);

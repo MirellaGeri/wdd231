@@ -184,7 +184,7 @@ h1{
 }
 .card{
     grid-column: 3;
-    box-shadow: 5px 5px 5px #6f7364;
+    box-shadow: 5px 5px 5px #6f73646f;
 }
 .card h2{
     background-color: #082058;
@@ -210,21 +210,7 @@ section .card2{
     border-bottom: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #6f7364;;
-    color: #082058;
-    padding: 10px;
-    margin-top: 0;
-}
-.card2 h3{
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-radius: 0px 0px 0px 0px;
-    border-top: 15px;
-    border-bottom: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: #6f7364;;
+    background-color: #759C95;
     color: #082058;
     padding: 10px;
     margin-top: 0;
