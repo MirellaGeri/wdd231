@@ -139,6 +139,12 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+.home-grid-featured{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
 #about-me{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -192,16 +198,16 @@ h1{
     padding: 10px;
     margin-top: 0;
 }
-section .card2{
+section .card2 .featured-card{
     margin: 0.5rem auto;
     padding: 0.5rem;
     max-width: 450px;
 }
-.card2{
+.card2, .featured-card{
     border-radius: 15px 15px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .75);
 }
-.card2 h2{
+.card2 h2,.featured-card h2{
     text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -210,15 +216,23 @@ section .card2{
     border-bottom: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #759C95;
     color: #082058;
     padding: 10px;
     margin-top: 0;
 }
+.level-member h2{
+    background-color: #c2d5ff; 
+}
+.level-silver h2{
+    background-color: #d3d3d3; 
+}
+.level-gold h2{
+    background-color: #ffd700; 
+}
 .card p{
     font-size: 1.2em;
 }
-.card2 p{
+.card2 p,.featured-card p{
     font-size: 1em;
 }
 footer {

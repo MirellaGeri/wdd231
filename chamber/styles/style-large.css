@@ -9,6 +9,11 @@
       height: auto;
       text-align: center;
   }
+  .home-grid-featured{
+    display: block;
+    height: auto;
+    text-align: center;
+}
     .header a{
         display: block;
         text-align: center;
@@ -66,6 +71,12 @@
 }
 @media (min-width:901px ) and (max-width:1400px) {
   .home-grid2{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .home-grid-featured{
     padding-top: 15px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
