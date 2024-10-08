@@ -108,6 +108,7 @@ main{
     text-align: left;
 }
 .events {
+    margin: 10px;
     margin-top: 15px;
 }
 .events a {
@@ -145,7 +146,7 @@ p{
     margin-bottom: 0px;
     text-align: center;
 }
-h1{
+.home-grid h1{
     text-align: left;
 }
 .home-grid {
@@ -168,12 +169,10 @@ h1{
 #about-me{
     grid-column-start: 1;
     grid-column-end: 3;
-    margin-right: 20px;
 }
 #resources{
     grid-column-start: 3;
     grid-column-end: 3;
-    margin-right: 20px;
 }
 #text_weather{
     grid-column-start: 2;
@@ -206,7 +205,6 @@ h1{
 #forecast{
     grid-column-start: 4;
     grid-column-end: 4;
-    margin-right: 20px;
 }
 .card{
     grid-column: 3;
