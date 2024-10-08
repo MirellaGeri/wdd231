@@ -63,10 +63,15 @@ main{
     font-family: "Edu TAS Beginner";
     color: #082058;
 }
-.container{
+.hero-img{
     position: relative;
-    height: 500px;
-    padding-bottom: 10px;
+    width: 100%;
+    height: 400px;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .text-right {
     position: absolute;
@@ -77,12 +82,6 @@ main{
     color: black;
     width: 200px;
 }
-.container img{
-    height: 100%;
-    width:100%;
-    object-fit: cover;
-}
-
 main {
 	margin: 0 auto;
 	padding: 0.5rem;
