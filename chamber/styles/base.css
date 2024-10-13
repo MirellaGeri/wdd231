@@ -118,7 +118,6 @@ main{
     padding: 10px;
     border-bottom: 1px solid #ccc; 
 }
-
 .events a:hover {
     text-decoration: underline; 
 }

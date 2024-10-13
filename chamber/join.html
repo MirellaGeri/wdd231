@@ -6,13 +6,12 @@
     <meta name="author" content="Mirella Martinez" />
     <meta name="description" content="Design and development web, also including JavaScript and css." />
     <title>Chamber</title>
-    <link rel="stylesheet" href="styles/directory.css">
-    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="stylesheet" href="styles/join.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
     <script src="scripts/getDates.js" defer></script>
-    <script src="scripts/directory.js"  defer></script>
+    <script src="scripts/join.js"  defer></script>
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -34,10 +33,127 @@
                 </div>
               </div>
         </header>
-        <main>
-            <div class="hero-img">
-                <img src="images/GranviaMadrid_city.jpeg" alt="granvia">
+        <main onload="setTimestamp()">
+            <div class="container">
+                <div class="hero-img">
+                    <img src="images/GranviaMadrid_city.jpeg" alt="granvia">
+                </div>
+                <form id="myform" action="thankyou.html" method="get" onsubmit="storeData()">
+                    <h2>Membership Application Form</h2>
+                    <div>
+                        <label for="name">First name:</label>
+                        <input type="text" id="name" name="name" required autocomplete="given-name" title="give your name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" required autocomplete="family-name" title="give your last name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="title">Title:</label>
+                        <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}" title="only accept alpha characters, hyphens, and spaces with a minimum of seven characters" autocomplete="organization-title">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@dominio.com" title="email adrress">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required autocomplete="tel" title="introduce the phone number">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="organization">Organization's Name:</label>
+                        <input type="text" id="organization" name="organization" required autocomplete="organization" title="organization">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="membership">Membership Level :</label>
+                        <select id="membership" name="membership" required>
+                            <option value="np">Non Profit Membershipe</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="description">Description:</label>
+                        <textarea id="description" name="description" title="Description"></textarea>
+                    </div>
+                    <br>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                
+                </form>
+                <div class="membership-cards">
+                    <h2>Membership Levels</h2>
+                    <div class="card">
+                        <h3>Non Profit Membership Level</h3>
+                        <a href="#" onclick="showModal('modal-np')">Learn More</a>
+                    </div>
+                
+                    <div class="card">
+                        <h3>Bronze Membership Level</h3>
+                        <a href="#" onclick="showModal('modal-bronce')">Learn More</a>
+                    </div>
+                
+                    <div class="card">
+                        <h3>Silver Membership Level</h3>
+                        <a href="#" onclick="showModal('modal-plata')">Learn More</a>
+                    </div>
+                
+                    <div class="card">
+                        <h3>Gold Membership Level</h3>
+                        <a href="#" onclick="showModal('modal-gold')">Learn More</a>
+                    </div>
+                </div>
             </div>
+            <dialog id="modal-np">
+                <h2>Membership NP Increasing</h2>
+                <ul>
+                    <li>Acceso a eventos especiales.</li>
+                    <li>Capacitación gratuita.</li>
+                    <li>Publicidad básica en nuestra página.</li>
+                </ul>
+                <button class="close" onclick="closeModal('modal-np')">Close</button>
+            </dialog>
+            
+            <dialog id="modal-bronce">
+                <h2>Membership Bronze Increasing</h2>
+                <ul>
+                    <li>Acceso a eventos y capacitaciones.</li>
+                    <li>Publicidad destacada en nuestra página.</li>
+                    <li>Descuentos en eventos.</li>
+                </ul>
+                <button class="close" onclick="closeModal('modal-bronce')">Close</button>
+            </dialog>
+            
+            <dialog id="modal-plata">
+                <h2>Membership Silver Increasing</h2>
+                <ul>
+                    <li>Todo en Bronce.</li>
+                    <li>Acceso a eventos exclusivos.</li>
+                    <li>Descuentos adicionales en capacitaciones.</li>
+                </ul>
+                <button class="close" onclick="closeModal('modal-plata')">Close</button>
+            </dialog>
+            
+            <dialog id="modal-gold">
+                <h2>Membership Gold Increasing</h2>
+                <ul>
+                    <li>Todo en Plata.</li>
+                    <li>Acceso VIP a eventos especiales.</li>
+                    <li>Promociones exclusivas.</li>
+                    <li>Publicidad destacada en todos nuestros canales.</li>
+                </ul>
+                <button class="close" onclick="closeModal('modal-gold')">Close</button>
+            </dialog>
         </main>
     
         <footer>
