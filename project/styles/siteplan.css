@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner&display=swap');
+
+:root {
+  --primary-color: #5B1966   ;
+  --secondary-color: #B897CF ;
+  --accent1-color: #FF822F;
+  --accent2-color: #FADD1B;
+   --heading-font: Agbalumo;
+   --paragraph-font: "Edu TAS Beginner", Helvetica, sans-serif;
+ 
+   --headline-color-on-white: #5B1966; 
+   --headline-color-on-color: white; 
+   --paragraph-color-on-white: #5B1966;
+   --paragraph-color-on-color: white;
+   --paragraph-background-color: #5B1966  ;
+   --nav-link-color: #5B1966;
+   --nav-hover-link-color: white;
+   --nav-hover-background-color: #5B1966;
+ }
+ 
+ body {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 4em;
+   font-size: 18px;
+   text-align: center;
+ }
+ img {
+   display: block;
+   margin: 0 auto;
+ }
+ h1, h2, h3, h4 {
+   font-family: var(--heading-font);
+   color: var(--headline-color-on-white);
+ }
+ h2 {
+   text-align: center;
+ }
+ hr {
+   height: 3px;
+   margin: 35px 0;
+   background: var(--accent1-color);
+ }
+ header {
+   padding: 1em;
+   text-align: center;
+   color: var(--headline-color-on-color);
+   background-color: var(--paragraph-background-color);
+ }
+ header > h1, header > h2 {
+   color: var(--headline-color-on-color);
+ }
+ 
+ p {
+   font-family: var(--paragraph-font);
+   color: var(--paragraph-color-on-white);
+   padding: 1em;
+ }
+ .colors {
+   width: 100%;
+   min-width: 350px;
+   margin: 30px auto;
+   text-align: center;
+ }
+ .colors th {
+   background-color: #999;
+ }
+ .colors td{
+   width: 25%;
+   height: 3em;
+ }
+ 
+ .primary {
+   background-color: var(--primary-color);
+ }
+ .secondary {
+   background-color: var(--secondary-color);
+ }
+ .accent1 {
+   background-color: var(--accent1-color);
+ }
+ .accent2{
+   background-color: var(--accent2-color);
+ }
+ 
+ p.colored {
+   background-color: var(--paragraph-background-color);
+   color: var(--paragraph-color-on-color);
+ }
+
+
+ #wireframe1, #wireframe2 {
+  width: 50%; 
+  max-width: 600px; 
+  text-align: center;
+}
