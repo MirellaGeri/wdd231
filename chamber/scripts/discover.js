@@ -23,3 +23,4 @@ if (!localStorage.getItem(lastVisitKey)) {
 }
 
 localStorage.setItem(lastVisitKey, now.toISOString());
+
