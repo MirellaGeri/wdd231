@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mirella Martinez" />
+    <meta name="description" content="Design and development web, also including JavaScript and css." />
+    <title>Chamber</title>
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/discover.js"  defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="header">
+                <img src="images/escudo_Madrid.png" alt="logo">
+                <div class="name">
+                    <h3>Madrid</h3>
+                    <p>Chamber of Commerce</p>
+                </div>
+                <div class="header-right" id="myheader">
+                  <a href="index.html" id="Home">HOME</a>
+                  <a href="directory.html" id="Directory">Directory</a>
+                  <a href="join.html" id="Join">Join</a>
+                  <a class="active" href="discover.html">Discover</a>
+                  <a href="#" id="menu" class="icon" onclick="myFunction()">
+                    &#9776;</a>
+                </div>
+              </div>
+        </header>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="section">
+                    <h2>Demographic Data</h2>
+                    <p>Population: 3.4 million</p>
+                    <p>Area: 604 km²</p>
+                    <p>Density: 5,300 hab/km²</p>
+                </div>
+                <div class="section">
+                    <h3>Statistical Data</h3>
+                    <p>Unemployment rate: 10%</p>
+                    <p>Average income: €30,000</p>
+                </div>
+                <div class="section">
+                    <h3>Events</h3>
+                    <ul>
+                        <li>Madrid Fair - November 15</li>
+                        <li>Film Festival - December 22</li>
+                        <li>Summer Concert - July 10</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <div class="calendar-container">
+                        <label for="calendar">Select a date:</label>
+                        <input type="date" id="calendar" class="custom-calendar">
+                    </div>
+                </div>
+            </aside>
+            <main class="main-content">
+                <h2>Local Photographs of Interest</h2>
+                <div class="gallery">
+                    <figure>
+                        <img src="images/royalpalace.jpg" alt="Royal Palace of Madrid" loading="lazy">
+                        <figcaption>Royal Palace of Madrid</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/bernabeustadium.jpg" alt="Santiago Bernabeu Stadium" loading="lazy">
+                        <figcaption>Santiago Bernabeu Stadium</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/granvia.jpg" alt="Gran Via" loading="lazy">
+                        <figcaption>Gran Via</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/plazamayor.jpg" alt="Plaza Mayor" loading="lazy">
+                        <figcaption>Plaza Mayor</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/debodtemple.jpg" alt="Temple of Debod" loading="lazy">
+                        <figcaption>Temple of Debod</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/puertadelsol.jpg" alt="Puerta del Sol" loading="lazy">
+                        <figcaption>Puerta del Sol</figcaption>
+                    </figure>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div>
+                <p id="footertitle">Madrid Chamber of Commerce</p>
+                <p>45 Gran Via</p>
+                <p>Madrid, Spain</p>
+                <p>info@madrid.org</p>
+                <p>(+34) 666 66 66 66</p>
+            </div>
+            <div class="social">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="images/Youtube_logo.png"  alt="youtube icon" class="imagen">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="twitter icon" class="imagen">
+                </a>
+                <a href="https://www.linkedin.com/">
+                    <img src="images/images.png" alt="linkedin icon" class="imagen">
+                </a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p> 
+                    &copy;<span id="year"></span> 
+                    Madrid Chamber of Commerce
+                </p>
+                <p>Last Modification: <span id="lastModified"></span> </p>
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>
