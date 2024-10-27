@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mirella Martinez" />
+    <meta name="description" content="Design and development of site plan project, also including JavaScript and css." />
+    <title>Geraldine Martinez | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/script.js"  defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="header">
+                <img src="images/logo.png" alt="logo">
+                <a href="#name" class="name">
+                    <h3>GERALDINE MARTINEZ</h3>
+                </a>
+                <div class="header-right" id="myheader">
+                  <a class="active" href="index.html" id="Home">HOME</a>
+                  <a href="aboutme.html">ABOUT</a>
+                  <a href="contactme.html">CONTACT ME</a>
+                  <a href="siteplan.html">SITE PLAN</a>
+                  <a href="#" id="menu" class="icon" onclick="myFunction()">
+                    &#9776;</a>
+                </div>
+              </div>
+        </header>
+        <main>
+            <div class="hero-img">
+                <img src="images/banner1.jpeg" alt="banner">
+                <div class="text-right"> 
+                    <h1>Life is joining threads and colors</h1>
+                    <div class="button-box">
+                        <a class="book" href="contactme.html">Contact me</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="filter-buttons">
+                <button id="all" class="active">All</button>
+                <button id="crochet">Crochet</button>
+                <button id="craft">Craft</button>
+            </div>
+            <div class="container" id="card">
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 id="modal-title"></h3>
+                    <img id="modal-image" src="" alt="" />
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p id="footertitle">Geraldine Martinez</p>
+                <p>geralinfo@gmail.org</p>
+                <p>(+34) 666 66 66 66</p>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="images/Youtube_logo.png" alt="youtube icon">
+                </a>
+                <a href="https://x.com">
+                    <img src="images/twittericon.jpg" alt="twitter icon">
+                </a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p> 
+                    &copy;<span id="year"></span> 
+                    Madrid, Spain
+                </p>
+                <p>Last Modification: <span id="lastModified"></span> </p>
+            </div>    
+        </footer>
+    </div>
+</body>
+</html>

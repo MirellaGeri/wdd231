@@ -59,20 +59,7 @@
     top: 50px;
     display: none;
 }
-main{
-    font-family: "Edu TAS Beginner";
-    color: #082058;
-}
-.hero-img{
-    position: relative;
-    width: 100%;
-    height: 400px;
-}
-.hero-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 body {
     font-family: Arial, sans-serif;
     background-color: white;

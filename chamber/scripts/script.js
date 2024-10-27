@@ -8,7 +8,7 @@ async function getMembersData() {
   }
 }
 
-// Función para renderizar las empresas
+
 function showMembers(members) {
   document.querySelector('.home-grid2').innerHTML = ""
   const featuredMembers = members.filter(element=> element.membershiplevel == '2' || element.membershiplevel == '3');

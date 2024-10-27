@@ -27,10 +27,10 @@
     font-family: Agbalumo;
     display: block;
   }
-.header a{
+/*.header a{
     float: left;
     text-align: center;
-}
+}*/
 .header a.active {
     background-color: #232323;
     color: white;

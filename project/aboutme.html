@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mirella Martinez" />
+    <meta name="description" content="Design and development of a review." />
+    <title>Geraldine Martinez | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/about.js"  defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="header">
+                <img src="images/logo.png" alt="logo">
+                <a href="#name" class="name">
+                    <h3>GERALDINE MARTINEZ</h3>
+                </a>
+                <div class="header-right" id="myheader">
+                  <a href="index.html" id="Home">HOME</a>
+                  <a class="active" href="aboutme.html">ABOUT</a>
+                  <a href="contactme.html">CONTACT ME</a>
+                  <a href="siteplan.html">SITE PLAN</a>
+                  <a href="#" id="menu" class="icon" onclick="myFunction()">
+                    &#9776;</a>
+                </div>
+              </div>
+        </header>
+        <main>
+            <div class="about-grid">
+                <section id="aboutme">
+                    <div class="slider-frame">
+                        <ul>
+                            <li><img src="images/person1.jpg" alt="Geraldine Martinez"></li>
+                            <li><img src="images/person2.jpeg" alt="Geraldine Martinez"></li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="text">
+                    <h2>ABOUT ME</h2>
+                    <p>My name is Geraldine Martinez Salcedo. I was born and raised in Lima, Peru.</p>
+                    <h3>My Journey</h3>
+                    <p>When I was a child, my dream was to become a pastry chef. Along the way, I developed some talents that I love, including drawing, crocheting, and making crafts.</p>
+                    <p>I consider myself a versatile artist who enjoys working on all kinds of craft projects. My new dream is to become a graphic designer and create stories for my series.</p>
+                    <p>When I'm not creating, I enjoy watching videos, taking walks with my sister, and spending time with family.</p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p id="footertitle">Geraldine Martinez</p>
+                <p>geralinfo@gmail.org</p>
+                <p>(+34) 666 66 66 66</p>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="images/Youtube_logo.png" alt="youtube icon">
+                </a>
+                <a href="https://x.com">
+                    <img src="images/twittericon.jpg" alt="twitter icon">
+                </a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p> 
+                    &copy;<span id="year"></span> 
+                    Madrid, Spain
+                </p>
+                <p>Last Modification: <span id="lastModified"></span> </p>
+            </div>    
+        </footer>
+    </div>         
+</body>
+</html>

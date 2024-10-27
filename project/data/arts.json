@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Christmas Lights Crochet",
+      "category":"Crochet",
+      "imageUrl":"https://i.postimg.cc/fyV4rq6B/christmas-lights-crochet.jpg",
+      "featured": false,
+      "description":"I crocheted my Christmas lights to decorate my Christmas tree."
+    },
+    {
+      "name": "Box Craft",
+      "category":"Craft",
+      "imageUrl":"https://i.postimg.cc/mDXfVW6P/box-craft.jpg",
+      "featured": false,
+      "description":"I made a paper box to store my pencils."
+    },
+    {
+      "name": "Gominola Crochet",
+      "category":"Crochet",
+      "imageUrl":"https://i.postimg.cc/ZnXktFmZ/gominola-crochet.jpg",
+      "featured": false,
+      "description":"I wanted to try new crochet designs."
+    },
+    {
+      "name": "Hearts Crochet",
+      "category":"Crochet",
+      "imageUrl":"https://i.postimg.cc/MKj2040G/hearts-crochet.jpg",
+      "featured": true,
+      "description":"I made the crochet heart to give to my sister."
+    },
+    {
+      "name": "Keychains Crochet",
+      "category":"Crochet",
+      "imageUrl":"https://i.postimg.cc/wBgCpjCt/keychains-crochet.png",
+      "featured": false,
+      "description":"The keychains were my first crochet creation."
+    },
+    {
+      "name": "Llama Crochet",
+      "category":"Crochet",
+      "imageUrl":"https://i.postimg.cc/Dwq9HXMk/llama-crochet.jpg",
+      "featured": true,
+      "description":"I made the crochet llama to give to a friend."
+    },
+    {
+      "name": "Mermaid Crochet",
+      "category":"Crochet",
+      "imageUrl":"https://i.postimg.cc/mrj02G4m/mermaid-crochet.jpg",
+      "featured": true,
+      "description":"The crochet mermaid was my first sale."
+    },
+    {
+      "name": "Monkey Crochet",
+      "category":"Crochet",
+      "imageUrl":"https://i.postimg.cc/bJv4ZFNp/monkey-crochet.jpg",
+      "featured": false,
+      "description":"The crochet monkey was my second sale."
+      },
+      {
+        "name": "Paper Craft",
+        "category":"Craft",
+        "imageUrl":"https://i.postimg.cc/76Qd0Mf7/paper-craft.jpg",
+        "featured": false,
+      "description":"The paper craft was to store my pencils."
+      },
+      {
+        "name": "Pink Cat Crochet",
+        "category":"Crochet",
+        "imageUrl":"https://i.postimg.cc/RhkYbS1Z/pink-cat-crochet.jpg",
+        "featured": true,
+      "description":"The crochet cat was an extraordinary gift for my best friend."
+      },
+      {
+        "name": "Pink Dragon Craft",
+        "category":"Craft",
+        "imageUrl":"https://i.postimg.cc/vyzg4j4Z/pink-dragon-craft.jpg",
+        "featured": true,
+      "description":"The paper dragon was to create my own hand puppets."
+      },
+      {
+        "name": "Tortles Crochet",
+        "category":"Crochet",
+        "imageUrl":"https://i.postimg.cc/pLHWmRNv/tortle-crochet.jpg",
+        "featured": false,
+      "description":"The crochet turtles were a gift for my dad."
+      },
+      {
+        "name":"Tortue Crochet",
+        "category":"Crochet",
+        "imageUrl":"https://i.postimg.cc/Hs5WWjh3/tortue-crochet.jpg",
+        "featured": false,
+      "description":"The other turtles were my third sale."
+      }
+  ]
