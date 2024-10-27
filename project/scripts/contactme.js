@@ -8,7 +8,6 @@ function storeData(event) {
 
     localStorage.setItem('userName', document.getElementById('name').value);
     localStorage.setItem('userEmail', document.getElementById('email').value);
-    localStorage.setItem('userMessage', document.getElementById('message').value);
 
     
     const currentDate = new Date();
